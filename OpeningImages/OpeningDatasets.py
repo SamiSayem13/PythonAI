@@ -18,8 +18,8 @@ def load_labels(filename):
         return labels
 
 # Load your MNIST files
-images = load_images("C:/Users/Zeus/Desktop/PythonProject/OpeningImages/train-images.idx3-ubyte")
-labels = load_labels("C:/Users/Zeus/Desktop/PythonProject/OpeningImages/train-labels.idx1-ubyte")
+images = load_images(r"C:\Users\Zeus\Desktop\PythonProject\PythonAI\OpeningImages/train-images.idx3-ubyte")
+labels = load_labels(r"C:\Users\Zeus\Desktop\PythonProject\PythonAI\OpeningImages/train-labels.idx1-ubyte")
 
 
 # Show the first 5 images
