@@ -1,8 +1,8 @@
-from tensorflow.keras.datasets import mnist
+import tensorflow as tf
 import matplotlib.pyplot as plt
 
-# Load dataset
-(_, _), (test_images, test_labels) = mnist.load_data()
+# Load MNIST dataset
+(train_images, train_labels), (test_images, test_labels) = tf.keras.datasets.mnist.load_data()
 
 # Show first test image
 plt.imshow(test_images[0], cmap='gray')
