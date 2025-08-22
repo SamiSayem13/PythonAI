@@ -29,7 +29,7 @@ icon_label.setPixmap(pixmap)
 layout.addWidget(icon_label)
 
 # Text
-text_label = QLabel("Log In")
+text_label = QLabel("Hit me to run")
 text_label.setStyleSheet("color: white; font-weight: 600;")
 layout.addWidget(text_label)
 layout.addStretch()
